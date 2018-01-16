@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.custom-img {
+    width: 96%;
+    height: 94%;
+    padding: 2%;
+}
+.photo-case {
+    background-color: #ffffff;
+}
+.mdl-grid {
+    background: linear-gradient(rgb(71, 85, 7), #ffffff);
+    background: -webkit-linear-gradient(rgb(71, 85, 7), #ffffff);
+}
+
+.mdl-card {
+    min-height: 0px;
+}
+
+.main  {
+    padding: 4%;
+}
+
+span.mdl-layout__title {
+    font-family: 'Tangerine', serif;
+    font-size: 3em;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+[draggable=true] {
+    user-select: none;
+    -khtml-user-drag: element;
+}
